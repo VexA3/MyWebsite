@@ -21,8 +21,17 @@
   }
   
 .footerDiv {
-    display: inline-flex;
-    justify-content: center;
-    vertical-align: middle;
-    margin-bottom: 15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 3vw;
+}
+
+@media screen and (min-width: 800px) {
+  .footerDiv {
+    font-size: 2vw;
+  }
 }
