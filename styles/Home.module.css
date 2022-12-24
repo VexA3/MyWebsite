@@ -67,10 +67,24 @@
   }
 }
 
-/* @media screen and (min-width: 1280px) {
+@media screen and (min-width: 800px) {
   .large {
+    font-size: 8vw;
   }
 
   .subtext {
+    font-size: 2vw;
   }
-} */
+
+  .formInput {
+    width: 15vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+
+  .submit {
+    width: 2vw;
+    height: 4vw;
+    font-size: 1.5vw;
+  }
+}
